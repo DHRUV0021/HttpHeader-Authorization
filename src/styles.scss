@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    margin: 15rem 0 ;
+}
+.card .test{
+    background-color: #42b2e6b7;
+}
+
+.edit{
+    background-color: #2b7496!important;
+    border-style: none!important;
+    margin: 4px;
+}
+.Delete{
+    background-color: #ff1515a2!important;
+    border-style: none!important;
+}
