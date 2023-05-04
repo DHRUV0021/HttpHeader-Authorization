@@ -41,6 +41,7 @@ export class HeaderComponent implements OnInit {
       next: (res: any) => {
         console.log(res);
         this.getData();
+        this.Task = new Header;
       },
       error: (err) => {
         console.log(err);
